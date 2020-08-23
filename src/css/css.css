@@ -1,0 +1,91 @@
+@charset "utf-8";
+body{
+    margin: 0;
+}
+
+header{
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+}
+.menu-mas-logo{
+    display: flex;
+    align-items: center;
+}
+.tog{
+    /* display: block; */
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    /* border-radius: 50%; */
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.active{
+    display: none;   
+}
+.header-image{
+    /* width: 200px; */
+    height: 40px;
+    padding: 0px 0px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.svgicon{
+    display: flex;
+    margin-top: 60px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    background-image: url("../icon/carrito.svg");
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.publicacion{
+    /* border: 1px solid black; */
+    padding: 8px 6px;
+    margin: 5px 0 0;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-container{
+    /* background-color: blue; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto 0;
+}
+.publicacion-precio{
+    /* background-color: yellow; */
+    font-size: inherit;
+}
+.publicacion-img{
+    width: 160px;
+    align-self: center;
+    border-radius: 10px;
+    display: flex;
+}
+
+.details{
+    text-align: center;
+}
+p{
+    margin: 10px;
+}
